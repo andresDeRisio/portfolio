@@ -1,0 +1,48 @@
+.botonup{
+    position: fixed;
+    bottom: 13%;
+    right:5%
+}
+
+.letra{
+    color: black;
+}
+
+.border{
+    border-radius: 10pt 10pt 10pt 10pt;
+}
+
+.enlace{
+    color: black;
+}
+
+.carta{
+    box-shadow: 0 1px 3px gray, 0 1px 2px gray;
+    transition: all 0.2s ease-in-out;
+    box-sizing: border-box;
+}
+
+.carta:hover{
+    box-shadow: 0 5px 5px gray, 0 6px 6px gray;
+}
+
+.carta .header h4{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.carta .header p{
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.header {
+    color: #ffbc36;
+    font-size: 27px;
+    padding: 10px;
+}
+
+.bigicon {
+    font-size: 35px;
+    color: #ffc936;
+}
